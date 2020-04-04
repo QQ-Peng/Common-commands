@@ -1,0 +1,21 @@
+#替换非数字或字母#
+tr -cs "[:alnum:]" "\n" 
+#大写转小写#
+tr [:upper:] [:lower:]
+
+
+#find the paths of all files you want，or put the paths of all files into a file in order to merge files in batchs#
+find /home/dson/data/AGAC_bio -type f > filename.txt
+
+#read a file line by line#
+while read line
+    do
+        #code block#
+        #such as combination of files#
+        cat $line >>targetfile
+    done  < $FILENAME
+
+#install python packages more quickly#
+pip install package name -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
