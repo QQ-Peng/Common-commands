@@ -1,6 +1,6 @@
-#替换非数字或字母#
+#replace non-numbers and non-letters with something; as an example, '\n'#
 tr -cs "[:alnum:]" "\n" 
-#大写转小写#
+#change case#
 tr [:upper:] [:lower:]
 
 
