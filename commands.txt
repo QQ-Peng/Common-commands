@@ -12,7 +12,7 @@ while read line
     do
         #code block#
         #such as combination of files#
-        cat $line >>targetfile
+        echo $line >>targetfile
     done  < $FILENAME
 
 #install python packages more quickly#
